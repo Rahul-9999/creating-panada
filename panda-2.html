@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<style>
+  body {
+    background: #25A9FC;
+  }
+
+  .box {
+    position: relative;
+    margin: auto;
+    display: block;
+    margin-top: 0%;
+    width: 800px;
+    height: 560px;
+    background: none;
+
+  }
+
+  .head {
+    position: absolute;
+    left: 25%;
+    top: 16.5%;
+    height: 67%;
+    width: 50%;
+    background: #A6BECF;
+    border-radius: 50%
+  }
+
+  .head-outer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #A6BECF;
+    border-radius: 50%;
+    z-index: 2;
+  }
+
+  .ear-left {
+    position: absolute;
+    background: #A6BECF;
+    width: 60%;
+    height: 65%;
+    border-radius: 50%;
+    left: -20%;
+    top: 5%
+  }
+
+  .ear-right {
+    position: absolute;
+    background: #A6BECF;
+    right: -20%;
+    width: 60%;
+    height: 65%;
+    border-radius: 50%;
+    top: 5%;
+  }
+
+  .inner-ear {
+    position: absolute;
+    background: #819CAF;
+    left: 10%;
+    top: 10%;
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+  }
+
+  .eye-left {
+    position: absolute;
+    background: white;
+    width: 25%;
+    height: 27%;
+    border-radius: 50%;
+    z-index: 3;
+    left: 25%;
+    top: 34%;
+  }
+
+  .eye-right {
+    position: absolute;
+    background: white;
+    width: 25%;
+    height: 27%;
+    border-radius: 50%;
+    z-index: 3;
+    right: 25%;
+    top: 34%;
+  }
+
+  .eye {
+    position: absolute;
+    background: black;
+    width: 20%;
+    height: 22%;
+    border-radius: 50%;
+    z-index: 3;
+    right: 40%;
+    top: 42%;
+  }
+
+  .nose {
+    position: absolute;
+    background: #BE845F;
+    width: 20%;
+    height: 32%;
+    border-radius: 30px;
+    z-index: 3;
+    right: 40%;
+    top: 48%;
+  }
+</style>
+
+<body>
+
+  <div class="box">
+    <div class="head">
+      <div class="head-outer"></div>
+      <div class="ear-left">
+        <div class="inner-ear"></div>
+      </div>
+      <div class="ear-right">
+        <div class="inner-ear"></div>
+      </div>
+      <div class="eye-left">
+        <div class="eye">
+        </div>
+      </div>
+      <div class="eye-right">
+        <div class="eye">
+        </div>
+      </div>
+      <div class="nose">
+      </div>
+      <div class="hair-left"></div>
+      <div class="hair-right"></div>
+    </div>
+  </div>
+
+
+</body>
+
+</html>
